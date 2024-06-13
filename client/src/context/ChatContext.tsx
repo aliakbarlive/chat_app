@@ -1,15 +1,16 @@
 import {
-    ReactNode,
-    createContext,
-    useCallback,
-    useContext,
-    useEffect,
-    useState,
+  ReactNode,
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
 } from "react";
 import { useAxios } from "../hooks/useAxios";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { chatApi } from "../services/api";
 import { useAuthContext } from "./AuthContext";
+import { useSocketContext } from "./SocketContext";
 
 type ChatContextProviderProps = {
   children: ReactNode;
