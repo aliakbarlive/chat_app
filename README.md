@@ -14,8 +14,7 @@
     yarn install
     ```
 4. create .env file
-   - go to [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create a cluster and change the MONGO_URI  
-     (Follow [this video](https://www.youtube.com/watch?v=K8YELRmUb5o&t=920s) if you need help on this step)
+   - go to [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create a cluster and change the MONGO_URI
    - change the CLIENT_URL to your local client port http://localhost:3000 
    - generate random token for ACCESS/REFRESH_TOKEN_SECRET and also COOKIE_SIGNATURE
 
